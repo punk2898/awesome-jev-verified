@@ -1,4 +1,4 @@
-# Awesome Jev — Verified [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Jev — Verified
 
 ![verified](https://img.shields.io/badge/code--verified-765-2a78d6?style=flat-square) ![entries](https://img.shields.io/badge/entries-788-444?style=flat-square) ![checked](https://img.shields.io/badge/last%20checked-2026--09--20-666?style=flat-square) [![CC0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 

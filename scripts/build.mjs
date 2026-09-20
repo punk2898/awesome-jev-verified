@@ -124,7 +124,7 @@ function badges() {
 }
 
 function renderEN() {
-  return `# Awesome Jev — Verified [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+  return `# Awesome Jev — Verified
 
 ${badges()}
 
@@ -205,7 +205,7 @@ Additions, corrections and **removals** are all welcome — see [CONTRIBUTING.md
 }
 
 function renderZH() {
-  return `# Awesome Jev — 可验证版 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+  return `# Awesome Jev — 可验证版
 
 ${badges()}
 
