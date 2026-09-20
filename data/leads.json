@@ -1,0 +1,2228 @@
+{
+ "note": "Matched a Jev-related search but did not meet the inclusion rule: no code-level evidence, and not a Jev-focused resource. Kept so the exclusions are auditable.",
+ "generated_at": "2026-09-20",
+ "count": 54,
+ "entries": [
+  {
+   "repo": "killop/anything_about_game",
+   "url": "https://github.com/killop/anything_about_game",
+   "tier": "resource",
+   "desc": "A wonderful list of Game Development resources.",
+   "stars": 4104,
+   "lang": null,
+   "license": "Apache-2.0",
+   "topics": [
+    "2d-game-framework",
+    "ai-agent",
+    "awesome-list",
+    "csharp",
+    "ecs",
+    "ecs-libraries",
+    "game",
+    "game-asset"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2020-02-26",
+   "category": "list",
+   "evidence": null,
+   "doc_markers": [
+    "sdk",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 1,
+    "code_kb": 0,
+    "prose_kb": 714,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.03,
+    "reusable": 0.07,
+    "maturity": 1.53,
+    "category_confidence": 0.99
+   }
+  },
+  {
+   "repo": "milind-soni/tiptour-macos",
+   "url": "https://github.com/milind-soni/tiptour-macos",
+   "tier": "verified",
+   "desc": "Open-Source fast local computer use",
+   "stars": 600,
+   "lang": "Swift",
+   "license": "NOASSERTION",
+   "topics": [
+    "ai-pointer",
+    "computer-use",
+    "jev",
+    "macos-app"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-04-08",
+   "category": "browser",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "TipTour/Jev/JevClient.swift",
+    "line": 104,
+    "snippet": "static let endpoint = URL(string: \"https://api.typesafe.ai/v1/systemone\")!",
+    "matches": 6,
+    "sha": "52582467c883d66484542f3be8e259340eb524f1",
+    "permalink": "https://github.com/milind-soni/tiptour-macos/blob/52582467c883d66484542f3be8e259340eb524f1/TipTour/Jev/JevClient.swift#L104"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 67,
+    "code_kb": 1023,
+    "prose_kb": 30,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.72,
+    "reusable": 0.6,
+    "maturity": 1.9,
+    "category_confidence": 0.66
+   }
+  },
+  {
+   "repo": "mizorewww/laya-mlx",
+   "url": "https://github.com/mizorewww/laya-mlx",
+   "tier": "verified",
+   "desc": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+   "stars": 205,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "topics": [
+    "apple-silicon",
+    "decision-model",
+    "inference",
+    "laya",
+    "local-ai",
+    "machine-learning",
+    "mlx",
+    "modernbert"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "repro",
+   "evidence": {
+    "kind": "primitives",
+    "file": "laya_mlx/agent.py",
+    "line": 167,
+    "snippet": "raise ValueError(\"Noul criteria must be a dictionary with false/true descriptions\")",
+    "matches": 3,
+    "sha": "fc1df62828a3fedf4d8229fdac1cbd85f1cdf337",
+    "permalink": "https://github.com/mizorewww/laya-mlx/blob/fc1df62828a3fedf4d8229fdac1cbd85f1cdf337/laya_mlx/agent.py#L167"
+   },
+   "doc_markers": [
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 101,
+    "code_kb": 4776,
+    "prose_kb": 133,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.71,
+    "reusable": 0.87,
+    "maturity": 2.27,
+    "category_confidence": 0.5
+   }
+  },
+  {
+   "repo": "Mapika/decider",
+   "url": "https://github.com/Mapika/decider",
+   "tier": "verified",
+   "desc": "One-pass typed decisions with calibrated probabilities (System One style model), fine-tuned from Qwen3.5-2B",
+   "stars": 99,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-16",
+   "category": "repro",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "decider/serve.py",
+    "line": 3,
+    "snippet": "POST /v1/systemone  {\"state\": str|object|array, \"questions\": {id: {...}}} -> the TypeSafe/Jev wire format (decider.systemone):",
+    "matches": 12,
+    "sha": "a59466dc52f3ad5cc75758f80a4fa0109fd56b08",
+    "permalink": "https://github.com/Mapika/decider/blob/a59466dc52f3ad5cc75758f80a4fa0109fd56b08/decider/serve.py#L3"
+   },
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 71,
+    "code_kb": 596,
+    "prose_kb": 84,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.88,
+    "reusable": 0.63,
+    "maturity": 2.08,
+    "category_confidence": 0.73
+   }
+  },
+  {
+   "repo": "fabricioctelles/skills",
+   "url": "https://github.com/fabricioctelles/skills",
+   "tier": "verified",
+   "desc": "A collection of skills for AI agents (Kiro, Cursor, Windsurf, Claude Code, and others). Each skill is a reusable module that teaches the agent to perform complex tasks with context, structure, and best practices.",
+   "stars": 88,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "topics": [
+    "agentic-ai",
+    "agentic-skills",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skills",
+    "codex",
+    "codex-skill",
+    "codex-skills"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-02-21",
+   "category": "agent",
+   "evidence": {
+    "kind": "primitives",
+    "file": "skills/agent-plugin-eval/scripts/jev_questions.json",
+    "line": 195,
+    "snippet": "\"gate_evaluation\": \"Gates pass if Jev Noul returns positive label (conformant/valid/coherent)\",",
+    "matches": 4,
+    "sha": "9f2b9220f55dc7f4c9ee678b916fcd884e23927a",
+    "permalink": "https://github.com/fabricioctelles/skills/blob/9f2b9220f55dc7f4c9ee678b916fcd884e23927a/skills/agent-plugin-eval/scripts/jev_questions.json#L195"
+   },
+   "doc_markers": [
+    "primitives",
+    "sdk",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 46,
+    "code_kb": 340,
+    "prose_kb": 1714,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.4,
+    "reusable": 0.5,
+    "maturity": 2.08,
+    "category_confidence": 0.99
+   }
+  },
+  {
+   "repo": "supercorp-ai/supercov",
+   "url": "https://github.com/supercorp-ai/supercov",
+   "tier": "verified",
+   "desc": "Code quality and coverage for coding agents",
+   "stars": 64,
+   "lang": "Rust",
+   "license": "MIT",
+   "topics": [
+    "ai",
+    "coverage",
+    "jev",
+    "qa",
+    "quality-assurance",
+    "typesafe"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-08-23",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "crates/supercov-cli/src/quality.rs",
+    "line": 30,
+    "snippet": "const ENDPOINT: &str = \"https://api.typesafe.ai/v1/systemone\";",
+    "matches": 5,
+    "sha": "0f1a6a3364137a94606563fc173a0dbf1cef855e",
+    "permalink": "https://github.com/supercorp-ai/supercov/blob/0f1a6a3364137a94606563fc173a0dbf1cef855e/crates/supercov-cli/src/quality.rs#L30"
+   },
+   "doc_markers": [],
+   "shape": {
+    "code_files": 531,
+    "code_kb": 8859,
+    "prose_kb": 1115,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.28,
+    "reusable": 0.76,
+    "maturity": 2.27,
+    "category_confidence": 0.35
+   }
+  },
+  {
+   "repo": "pinecone-io/cultivar",
+   "url": "https://github.com/pinecone-io/cultivar",
+   "tier": "verified",
+   "desc": "Use cultivar to test your Agent Skills and Docs by running them in sandboxes, and across different agents.",
+   "stars": 40,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [
+    "agent",
+    "agent-skills",
+    "agent-traces",
+    "benchmarking",
+    "claude-code",
+    "codex",
+    "copilot",
+    "cursor"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-06-17",
+   "category": "research",
+   "evidence": {
+    "kind": "sdk",
+    "file": "evals/framework/typesafe_grader.py",
+    "line": 142,
+    "snippet": "\"\"\"Build a TypeSafeClient, importing the SDK lazily.",
+    "matches": 8,
+    "sha": "6feb3122729c0c2071671b199f91c0d2f3fa9036",
+    "permalink": "https://github.com/pinecone-io/cultivar/blob/6feb3122729c0c2071671b199f91c0d2f3fa9036/evals/framework/typesafe_grader.py#L142"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 29,
+    "code_kb": 282,
+    "prose_kb": 82,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.78,
+    "reusable": 0.78,
+    "maturity": 2.1,
+    "category_confidence": 0.93
+   }
+  },
+  {
+   "repo": "Alurith/jeff",
+   "url": "https://github.com/Alurith/jeff",
+   "tier": "verified",
+   "desc": "Catch code issues before they catch you.",
+   "stars": 31,
+   "lang": "Go",
+   "license": null,
+   "topics": [
+    "golang",
+    "jev"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "guardrail",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "internal/typesafe/client.go",
+    "line": 18,
+    "snippet": "const defaultBaseURL = \"https://api.typesafe.ai\"",
+    "matches": 17,
+    "sha": "ca03fc4f67b5a0415d66a94dd0e121bf13c1f1c2",
+    "permalink": "https://github.com/Alurith/jeff/blob/ca03fc4f67b5a0415d66a94dd0e121bf13c1f1c2/internal/typesafe/client.go#L18"
+   },
+   "doc_markers": [],
+   "shape": {
+    "code_files": 23,
+    "code_kb": 103,
+    "prose_kb": 3,
+    "tests": false,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.54,
+    "reusable": 0.59,
+    "maturity": 1.68,
+    "category_confidence": 0.33
+   }
+  },
+  {
+   "repo": "hyperspaceai/jevcache",
+   "url": "https://github.com/hyperspaceai/jevcache",
+   "tier": "resource",
+   "desc": "A decision cache for TypeSafe Jev-class models — memoize decisions so repeats are free, deterministic, and shareable. One 2 MB binary.",
+   "stars": 27,
+   "lang": null,
+   "license": null,
+   "topics": [
+    "cache",
+    "jev",
+    "llm",
+    "memoization",
+    "rust",
+    "typesafe"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "infra",
+   "evidence": null,
+   "doc_markers": [
+    "endpoint"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 6,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.18,
+    "reusable": 0.24,
+    "maturity": 0.07,
+    "category_confidence": 0.95
+   }
+  },
+  {
+   "repo": "GhalebDweikat/winnow",
+   "url": "https://github.com/GhalebDweikat/winnow",
+   "tier": "verified",
+   "desc": "A calibrated context sieve for Claude Code: every tool result is judged by a System One model before it enters context.",
+   "stars": 26,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [
+    "claude-code",
+    "claude-code-plugin",
+    "context-management",
+    "jev",
+    "llm-agents",
+    "typesafe"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-16",
+   "category": "context",
+   "evidence": {
+    "kind": "sdk",
+    "file": "sidecar/src/winnow/bench.py",
+    "line": 9,
+    "snippet": "- **judged result**: on top of that, importing ``typesafe_sdk`` (and its HTTP",
+    "matches": 11,
+    "sha": "51d80b945c74c8384bc47fa817179f668289afd8",
+    "permalink": "https://github.com/GhalebDweikat/winnow/blob/51d80b945c74c8384bc47fa817179f668289afd8/sidecar/src/winnow/bench.py#L9"
+   },
+   "doc_markers": [
+    "model_id",
+    "sdk",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 61,
+    "code_kb": 288,
+    "prose_kb": 62,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.71,
+    "reusable": 0.79,
+    "maturity": 2.32,
+    "category_confidence": 0.7
+   }
+  },
+  {
+   "repo": "r-ms/mini-jev",
+   "url": "https://github.com/r-ms/mini-jev",
+   "tier": "resource",
+   "desc": "mini-Jev: what a Jev-style typed-decision interface looks like on a frozen Qwen3-4B — read the option letter's logits instead of generating JSON. Preregistered experiment, results, teaching bench.",
+   "stars": 24,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [],
+   "pushed": "2026-09-18",
+   "created": "2026-09-17",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 34,
+    "code_kb": 219,
+    "prose_kb": 102,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.72,
+    "reusable": 0.35,
+    "maturity": 1.56,
+    "category_confidence": 0.96
+   }
+  },
+  {
+   "repo": "DanRWilloughby/snifftest",
+   "url": "https://github.com/DanRWilloughby/snifftest",
+   "tier": "verified",
+   "desc": "A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.",
+   "stars": 22,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "ai-writing",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "github-action",
+    "jev",
+    "linter",
+    "markdown"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-17",
+   "category": "guardrail",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/jev.ts",
+    "line": 50,
+    "snippet": "export const ENDPOINT = \"https://api.typesafe.ai/v1/systemone\";",
+    "matches": 22,
+    "sha": "240653e2b082c114c38fed50a42e7eb311e21219",
+    "permalink": "https://github.com/DanRWilloughby/snifftest/blob/240653e2b082c114c38fed50a42e7eb311e21219/src/jev.ts#L50"
+   },
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 110,
+    "code_kb": 3586,
+    "prose_kb": 179,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.83,
+    "reusable": 0.9,
+    "maturity": 2.49,
+    "category_confidence": 0.6
+   }
+  },
+  {
+   "repo": "rorshopping/jev-on-a-laptop",
+   "url": "https://github.com/rorshopping/jev-on-a-laptop",
+   "tier": "resource",
+   "desc": "Unofficial study: Jev-style parallel typed decisions on stock 1.5B-8B models on an Apple Silicon laptop. Benchmarks, research notes, and a Hugging Face Space demo.",
+   "stars": 18,
+   "lang": "Python",
+   "license": "NOASSERTION",
+   "topics": [],
+   "pushed": "2026-09-17",
+   "created": "2026-09-16",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 59,
+    "code_kb": 576,
+    "prose_kb": 161,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.71,
+    "reusable": 0.26,
+    "maturity": 1.54,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "zhihz/openjev",
+   "url": "https://github.com/zhihz/openjev",
+   "tier": "resource",
+   "desc": "Local bilingual probability decisions from context, questions, and candidate answers. Independent research preview inspired by TypeSafe Jev.",
+   "stars": 17,
+   "lang": "Python",
+   "license": "NOASSERTION",
+   "topics": [],
+   "pushed": "2026-09-16",
+   "created": "2026-09-16",
+   "category": "repro",
+   "evidence": null,
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 76,
+    "code_kb": 234,
+    "prose_kb": 82,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.32,
+    "reusable": 0.46,
+    "maturity": 1.62,
+    "category_confidence": 0.81
+   }
+  },
+  {
+   "repo": "philipbrembeck/pi-advisor",
+   "url": "https://github.com/philipbrembeck/pi-advisor",
+   "tier": "verified",
+   "desc": "Fully customizable Advisor and Executor flow plugin for the Pi Coding Agent",
+   "stars": 16,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai-tools",
+    "jev",
+    "pi",
+    "pi-coding-agent",
+    "pi-extension",
+    "typesafe-ai"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-07-17",
+   "category": "agent",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/jev/client.ts",
+    "line": 51,
+    "snippet": "typesafe: \"https://api.typesafe.ai/v1/systemone\",",
+    "matches": 23,
+    "sha": "ab0c0210876995669c87dd192ab560d42c8843d4",
+    "permalink": "https://github.com/philipbrembeck/pi-advisor/blob/ab0c0210876995669c87dd192ab560d42c8843d4/src/jev/client.ts#L51"
+   },
+   "doc_markers": [
+    "model_id",
+    "endpoint"
+   ],
+   "shape": {
+    "code_files": 313,
+    "code_kb": 1170,
+    "prose_kb": 162,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.57,
+    "reusable": 0.85,
+    "maturity": 2.62,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "luantak/is-malicious",
+   "url": "https://github.com/luantak/is-malicious",
+   "tier": "verified",
+   "desc": "A codebase scanner that helps you not run malicous code",
+   "stars": 15,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "jev",
+    "security-scanner",
+    "typesafe-ai"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "guardrail",
+   "evidence": {
+    "kind": "sdk",
+    "file": "src/jev.ts",
+    "line": 1,
+    "snippet": "import { TypeSafeClient, choice, noul, score } from \"@typesafe-ai/sdk\";",
+    "matches": 7,
+    "sha": "b6052465eb47cf85f347596385954aa06532718a",
+    "permalink": "https://github.com/luantak/is-malicious/blob/b6052465eb47cf85f347596385954aa06532718a/src/jev.ts#L1"
+   },
+   "doc_markers": [
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 51,
+    "code_kb": 167,
+    "prose_kb": 10,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.58,
+    "reusable": 0.69,
+    "maturity": 1.99,
+    "category_confidence": 0.87
+   }
+  },
+  {
+   "repo": "komorra/Eugeniusz",
+   "url": "https://github.com/komorra/Eugeniusz",
+   "tier": "resource",
+   "desc": "Local, typed AI decisions for C, C++, C#, Python, Unity and Unreal Engine.",
+   "stars": 7,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [
+    "ai",
+    "cpp",
+    "csharp",
+    "jev",
+    "local",
+    "local-ai",
+    "low-latency",
+    "ml"
+   ],
+   "pushed": "2026-09-17",
+   "created": "2026-09-17",
+   "category": "repro",
+   "evidence": null,
+   "doc_markers": [
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 124,
+    "code_kb": 5937,
+    "prose_kb": 117,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.48,
+    "reusable": 0.62,
+    "maturity": 2.12,
+    "category_confidence": 0.42
+   }
+  },
+  {
+   "repo": "cablehead/jev.nu",
+   "url": "https://github.com/cablehead/jev.nu",
+   "tier": "resource",
+   "desc": "Nushell module for the TypeSafe System One API: typed decisions with calibrated probabilities",
+   "stars": 6,
+   "lang": "Nushell",
+   "license": "MIT",
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "sdk",
+   "evidence": null,
+   "doc_markers": [
+    "model_id",
+    "endpoint",
+    "sdk"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 22,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.2,
+    "reusable": 0.26,
+    "maturity": 0.09,
+    "category_confidence": 0.92
+   }
+  },
+  {
+   "repo": "AkashPriyadarshii/jev-superpowers",
+   "url": "https://github.com/AkashPriyadarshii/jev-superpowers",
+   "tier": "resource",
+   "desc": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions",
+   "stars": 5,
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "agentic-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "cursor",
+    "developer-tools"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "agent",
+   "evidence": null,
+   "doc_markers": [
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 23,
+    "code_kb": 76,
+    "prose_kb": 333,
+    "tests": false,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.35,
+    "reusable": 0.52,
+    "maturity": 1.57,
+    "category_confidence": 0.99
+   }
+  },
+  {
+   "repo": "collapseindex/dinostomp",
+   "url": "https://github.com/collapseindex/dinostomp",
+   "tier": "verified",
+   "desc": "A verification layer for AI evaluations. Checks the instrument, not just the score: data, scorer, runs, numbers, claims, and itself.",
+   "stars": 5,
+   "lang": "Python",
+   "license": "NOASSERTION",
+   "topics": [
+    "ai-safety",
+    "audit",
+    "benchmark",
+    "calibration",
+    "dino",
+    "evals",
+    "evaluation",
+    "harness"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-08-09",
+   "category": "research",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/dinostomp/providers.py",
+    "line": 462,
+    "snippet": "\"\"\"The same decisions call on TypeSafe's own endpoint, `POST /v1/systemone`.",
+    "matches": 24,
+    "sha": "6542bd0065646b6c42852f020502ac042362230c",
+    "permalink": "https://github.com/collapseindex/dinostomp/blob/6542bd0065646b6c42852f020502ac042362230c/src/dinostomp/providers.py#L462"
+   },
+   "doc_markers": [
+    "model_id",
+    "endpoint",
+    "sdk"
+   ],
+   "shape": {
+    "code_files": 522,
+    "code_kb": 7772,
+    "prose_kb": 3581,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.76,
+    "reusable": 0.79,
+    "maturity": 2.78,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "sametcn99/my-stars-atlas",
+   "url": "https://github.com/sametcn99/my-stars-atlas",
+   "tier": "verified",
+   "desc": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
+   "stars": 5,
+   "lang": "TypeScript",
+   "license": null,
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "awesome-list-generator",
+    "github-actions",
+    "github-api",
+    "github-pages",
+    "handlebars",
+    "jev"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-03-17",
+   "category": "list",
+   "evidence": {
+    "kind": "model_id",
+    "file": "src/classify.ts",
+    "line": 210,
+    "snippet": "source: \"jev\",",
+    "matches": 5,
+    "sha": "89f49cf68fa1e608f4cdcee5c8c9f23691a8c9d4",
+    "permalink": "https://github.com/sametcn99/my-stars-atlas/blob/89f49cf68fa1e608f4cdcee5c8c9f23691a8c9d4/src/classify.ts#L210"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 33,
+    "code_kb": 112,
+    "prose_kb": 10,
+    "tests": false,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.52,
+    "reusable": 0.35,
+    "maturity": 2.02,
+    "category_confidence": 0.99
+   }
+  },
+  {
+   "repo": "jerryxff26-alt/session-top",
+   "url": "https://github.com/jerryxff26-alt/session-top",
+   "tier": "verified",
+   "desc": "Session Top — htop for AI coding sessions, making usage, quota, and token consumption observable and explainable.",
+   "stars": 4,
+   "lang": "Go",
+   "license": "MIT",
+   "topics": [
+    "ai-agents",
+    "cli",
+    "codex",
+    "developer-tools",
+    "distill",
+    "golang",
+    "jev",
+    "llm"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-16",
+   "category": "app",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "internal/jev/client.go",
+    "line": 19,
+    "snippet": "defaultEndpoint = \"https://api.typesafe.ai/v1/systemone\"",
+    "matches": 11,
+    "sha": "e7d6c1a2f851d51797933d757ed6fa676973f759",
+    "permalink": "https://github.com/jerryxff26-alt/session-top/blob/e7d6c1a2f851d51797933d757ed6fa676973f759/internal/jev/client.go#L19"
+   },
+   "doc_markers": [],
+   "shape": {
+    "code_files": 36,
+    "code_kb": 178,
+    "prose_kb": 27,
+    "tests": false,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.44,
+    "reusable": 0.77,
+    "maturity": 1.98,
+    "category_confidence": 0.74
+   }
+  },
+  {
+   "repo": "deep-diver/mini-jev",
+   "url": "https://github.com/deep-diver/mini-jev",
+   "tier": "resource",
+   "desc": "mini-jev: Google Gemma 3 270M 기반 Jev 호환 초고속 의사결정 엔진",
+   "stars": 3,
+   "lang": "Python",
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "repro",
+   "evidence": null,
+   "doc_markers": [
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 12,
+    "code_kb": 43,
+    "prose_kb": 11,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.34,
+    "reusable": 0.27,
+    "maturity": 0.94,
+    "category_confidence": 0.72
+   }
+  },
+  {
+   "repo": "geilt/typesafe-cli",
+   "url": "https://github.com/geilt/typesafe-cli",
+   "tier": "resource",
+   "desc": "CLI and agent skill for TypeSafe System One (Jev): typed Choice, Score, and Noul judgments.",
+   "stars": 3,
+   "lang": "Python",
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-17",
+   "created": "2026-09-17",
+   "category": "agent",
+   "evidence": null,
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 10,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.14,
+    "reusable": 0.12,
+    "maturity": 0.01,
+    "category_confidence": 0.51
+   }
+  },
+  {
+   "repo": "koksalkapucuoglu/resume-enhance",
+   "url": "https://github.com/koksalkapucuoglu/resume-enhance",
+   "tier": "verified",
+   "desc": "An open-source, AI-powered resume builder designed to craft high-impact resumes. Features smart content enhancement using the STAR method, instant PDF previews, and seamless export. Built with Django, Htmx, OpenAI, and WeasyPrint.",
+   "stars": 3,
+   "lang": "Python",
+   "license": null,
+   "topics": [
+    "django",
+    "django-formsets",
+    "docker",
+    "flyio",
+    "htmx",
+    "jev",
+    "openai",
+    "openai-api"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2024-10-21",
+   "category": "app",
+   "evidence": {
+    "kind": "sdk",
+    "file": "core/settings.py",
+    "line": 328,
+    "snippet": "\"typesafe_sdk\": {",
+    "matches": 12,
+    "sha": "f4970011ce158968cb8ced7b0a99ebd5a88a984c",
+    "permalink": "https://github.com/koksalkapucuoglu/resume-enhance/blob/f4970011ce158968cb8ced7b0a99ebd5a88a984c/core/settings.py#L328"
+   },
+   "doc_markers": [
+    "sdk",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 134,
+    "code_kb": 963,
+    "prose_kb": 112,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.19,
+    "reusable": 0.76,
+    "maturity": 2.44,
+    "category_confidence": 0.99
+   }
+  },
+  {
+   "repo": "djangobeatty/textured",
+   "url": "https://github.com/djangobeatty/textured",
+   "tier": "verified",
+   "desc": "Textured — Sounds of words. A musical toy from Fluxus.",
+   "stars": 2,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "generative-music",
+    "mutable-instruments",
+    "synthesizer",
+    "typesafe-ai",
+    "typescript",
+    "web-audio",
+    "webassembly"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "app",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "app/api/interpret/route.ts",
+    "line": 101,
+    "snippet": "response = await fetch(\"https://api.typesafe.ai/v1/systemone\", {",
+    "matches": 7,
+    "sha": "d1e106b4d40a158436ebac27dc429a0d1f3b8f32",
+    "permalink": "https://github.com/djangobeatty/textured/blob/d1e106b4d40a158436ebac27dc429a0d1f3b8f32/app/api/interpret/route.ts#L101"
+   },
+   "doc_markers": [],
+   "shape": {
+    "code_files": 49,
+    "code_kb": 644,
+    "prose_kb": 24,
+    "tests": false,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.7,
+    "reusable": 0.51,
+    "maturity": 1.94,
+    "category_confidence": 0.74
+   }
+  },
+  {
+   "repo": "gokulnair2001/Convoy",
+   "url": "https://github.com/gokulnair2001/Convoy",
+   "tier": "verified",
+   "desc": "Semantic end-to-end agent testing for iOS, Android, and web.",
+   "stars": 2,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "android",
+    "e2e-testing",
+    "ios",
+    "jev",
+    "test-automation",
+    "typescript",
+    "website"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "browser",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/cli/init.ts",
+    "line": 44,
+    "snippet": "TYPESAFE_BASE_URL=https://api.typesafe.ai/v1",
+    "matches": 29,
+    "sha": "13191e45ce5ffcb548094025604132c8138db3ac",
+    "permalink": "https://github.com/gokulnair2001/Convoy/blob/13191e45ce5ffcb548094025604132c8138db3ac/src/cli/init.ts#L44"
+   },
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 89,
+    "code_kb": 352,
+    "prose_kb": 49,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.52,
+    "reusable": 0.72,
+    "maturity": 2.25,
+    "category_confidence": 0.73
+   }
+  },
+  {
+   "repo": "hraness/algal",
+   "url": "https://github.com/hraness/algal",
+   "tier": "verified",
+   "desc": "ALGAL is a new take on the agent graph: a language and runtime for agentic program evolution.",
+   "stars": 2,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "cellular-automata",
+    "dspy",
+    "evolutionary-algorithms",
+    "jev",
+    "langgraph",
+    "rust"
+   ],
+   "pushed": "2026-09-20",
+   "created": "2026-09-18",
+   "category": "agent",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/jev.ts",
+    "line": 2,
+    "snippet": "// provider-neutral question map verbatim to api.typesafe.ai and returns",
+    "matches": 16,
+    "sha": "23c5841062280f121a3524e1e5635bc554285159",
+    "permalink": "https://github.com/hraness/algal/blob/23c5841062280f121a3524e1e5635bc554285159/src/jev.ts#L2"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 352,
+    "code_kb": 2660,
+    "prose_kb": 316,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.6,
+    "reusable": 0.65,
+    "maturity": 2.2,
+    "category_confidence": 0.34
+   }
+  },
+  {
+   "repo": "ibrahemid/jevprune",
+   "url": "https://github.com/ibrahemid/jevprune",
+   "tier": "verified",
+   "desc": "Filter command output for coding agents using a task description.",
+   "stars": 2,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "claude-code",
+    "cli",
+    "coding-agents",
+    "jev",
+    "typesafe"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "context",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/core/client.ts",
+    "line": 157,
+    "snippet": "const SYSTEM_ONE_PATH = \"/v1/systemone\";",
+    "matches": 35,
+    "sha": "56cc1b873faea3e68857c4d8314b002b43e26d85",
+    "permalink": "https://github.com/ibrahemid/jevprune/blob/56cc1b873faea3e68857c4d8314b002b43e26d85/src/core/client.ts#L157"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 104,
+    "code_kb": 893,
+    "prose_kb": 23,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.55,
+    "reusable": 0.78,
+    "maturity": 2.08,
+    "category_confidence": 0.93
+   }
+  },
+  {
+   "repo": "innocentdiaz/s1_ruby",
+   "url": "https://github.com/innocentdiaz/s1_ruby",
+   "tier": "verified",
+   "desc": "Makes S1-model 'measurement' (and the collapse that follows it) a Ruby primitive.",
+   "stars": 2,
+   "lang": "Ruby",
+   "license": "MIT",
+   "topics": [
+    "ai",
+    "jev",
+    "rails",
+    "rails8",
+    "ruby",
+    "ruby-app",
+    "ruby-gem",
+    "ruby-on-rails"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "lib/s1/providers/laya.rb",
+    "line": 10,
+    "snippet": "# in the System One HTTP contract (POST /v1/systemone) on a port you run;",
+    "matches": 40,
+    "sha": "3aae5d658283557fa53e3e8f934be619106e19e2",
+    "permalink": "https://github.com/innocentdiaz/s1_ruby/blob/3aae5d658283557fa53e3e8f934be619106e19e2/lib/s1/providers/laya.rb#L10"
+   },
+   "doc_markers": [
+    "endpoint",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 43,
+    "code_kb": 162,
+    "prose_kb": 52,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.78,
+    "reusable": 0.64,
+    "maturity": 1.95,
+    "category_confidence": 0.84
+   }
+  },
+  {
+   "repo": "jgridifier/jev-research-eval",
+   "url": "https://github.com/jgridifier/jev-research-eval",
+   "tier": "resource",
+   "desc": "Reproducible Jev Ultrafast research-browser eval harness + field note (QC’d cases, suite runner, report generator). Not investment advice.",
+   "stars": 2,
+   "lang": "HTML",
+   "license": "NOASSERTION",
+   "topics": [],
+   "pushed": "2026-09-17",
+   "created": "2026-09-17",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 18,
+    "code_kb": 655,
+    "prose_kb": 41,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.55,
+    "reusable": 0.41,
+    "maturity": 1.98,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "jodan-alberts/sokit",
+   "url": "https://github.com/jodan-alberts/sokit",
+   "tier": "verified",
+   "desc": "A harness to allow users to build agents using System One models.",
+   "stars": 2,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [],
+   "pushed": "2026-09-17",
+   "created": "2026-09-17",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "harness/client.py",
+    "line": 38,
+    "snippet": "POST https://api.typesafe.ai/v1/systemone  {\"model\": ..., \"state\": ...,",
+    "matches": 20,
+    "sha": "c0cb5e74a78bf286d0e2e836856b67ad68e2c142",
+    "permalink": "https://github.com/jodan-alberts/sokit/blob/c0cb5e74a78bf286d0e2e836856b67ad68e2c142/harness/client.py#L38"
+   },
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 28,
+    "code_kb": 180,
+    "prose_kb": 31,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.78,
+    "reusable": 0.63,
+    "maturity": 1.93,
+    "category_confidence": 0.53
+   }
+  },
+  {
+   "repo": "qiz029/dscode",
+   "url": "https://github.com/qiz029/dscode",
+   "tier": "verified",
+   "desc": "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry",
+   "stars": 2,
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "agentic",
+    "ai-agent",
+    "cli",
+    "code-review",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "developer-tools"
+   ],
+   "pushed": "2026-09-20",
+   "created": "2026-09-11",
+   "category": "agent",
+   "evidence": {
+    "kind": "model_id",
+    "file": "scripts/composition.mjs",
+    "line": 5,
+    "snippet": "'openrouter', 'grok', 'jev', 'auto-review', 'session-metrics', 'session-cards', 'session-bridge', 'memory', 'time-marks', 'tui-tools', 'email-tools',",
+    "matches": 6,
+    "sha": "36603007f50f10298f3df9989eb8e2532a6c4e63",
+    "permalink": "https://github.com/qiz029/dscode/blob/36603007f50f10298f3df9989eb8e2532a6c4e63/scripts/composition.mjs#L5"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 335,
+    "code_kb": 3778,
+    "prose_kb": 488,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.52,
+    "reusable": 0.83,
+    "maturity": 2.53,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "agent-chaperone/agent-chaperone",
+   "url": "https://github.com/agent-chaperone/agent-chaperone",
+   "tier": "verified",
+   "desc": "Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools.",
+   "stars": 1,
+   "lang": "TypeScript",
+   "license": "Apache-2.0",
+   "topics": [
+    "agent-security",
+    "ai-agent-security",
+    "ai-agents",
+    "ai-security",
+    "claude-code",
+    "guardrails",
+    "jev",
+    "jev-ai"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "agent",
+   "evidence": {
+    "kind": "sdk",
+    "file": "bench/src/mock_full.py",
+    "line": 7,
+    "snippet": "from typesafe_sdk import TypeSafeClient",
+    "matches": 18,
+    "sha": "76f359e6ce973a25601641a62bb4c9d1e22a6a4c",
+    "permalink": "https://github.com/agent-chaperone/agent-chaperone/blob/76f359e6ce973a25601641a62bb4c9d1e22a6a4c/bench/src/mock_full.py#L7"
+   },
+   "doc_markers": [
+    "sdk",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 124,
+    "code_kb": 987,
+    "prose_kb": 141,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.21,
+    "reusable": 0.84,
+    "maturity": 2.4,
+    "category_confidence": 0.78
+   }
+  },
+  {
+   "repo": "Barneyjm/decision-circuits",
+   "url": "https://github.com/Barneyjm/decision-circuits",
+   "tier": "verified",
+   "desc": "Decision circuits: typed questions to a System One model, calibrated probabilities back, gates in code. Zero-dependency Python SDK with LangChain, OpenAI Agents, and Claude Agent SDK integrations.",
+   "stars": 1,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [
+    "agents",
+    "calibration",
+    "decision-circuits",
+    "guardrails",
+    "langchain",
+    "llm",
+    "python",
+    "system-one"
+   ],
+   "pushed": "2026-09-20",
+   "created": "2026-09-19",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/decision_circuits/backends/systemone.py",
+    "line": 2,
+    "snippet": "speaking `POST /v1/systemone` (s1proto).",
+    "matches": 30,
+    "sha": "6ef14073637eb1130a94c720b99c547eaebb0c48",
+    "permalink": "https://github.com/Barneyjm/decision-circuits/blob/6ef14073637eb1130a94c720b99c547eaebb0c48/src/decision_circuits/backends/systemone.py#L2"
+   },
+   "doc_markers": [
+    "endpoint",
+    "primitives",
+    "sdk",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 45,
+    "code_kb": 219,
+    "prose_kb": 49,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.9,
+    "reusable": 0.82,
+    "maturity": 2.39,
+    "category_confidence": 0.88
+   }
+  },
+  {
+   "repo": "bokuweb/grande",
+   "url": "https://github.com/bokuweb/grande",
+   "tier": "verified",
+   "desc": "A System One style decision model runtime in Rust.",
+   "stars": 1,
+   "lang": "Rust",
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-20",
+   "created": "2026-09-19",
+   "category": "repro",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "crates/grande-cli/src/main.rs",
+    "line": 44,
+    "snippet": "/// Answer a request JSON file (TypeSafe `/v1/systemone` shape).",
+    "matches": 17,
+    "sha": "f799506a9ab9b8755f53dd0e1e713cfa37b28575",
+    "permalink": "https://github.com/bokuweb/grande/blob/f799506a9ab9b8755f53dd0e1e713cfa37b28575/crates/grande-cli/src/main.rs#L44"
+   },
+   "doc_markers": [
+    "endpoint",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 65,
+    "code_kb": 539,
+    "prose_kb": 53,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.87,
+    "reusable": 0.83,
+    "maturity": 2.17,
+    "category_confidence": 0.87
+   }
+  },
+  {
+   "repo": "DanielKillenberger/jev-predict-skill",
+   "url": "https://github.com/DanielKillenberger/jev-predict-skill",
+   "tier": "resource",
+   "desc": "Predict another skill's next closed decision with TypeSafe Jev — without running that skill.",
+   "stars": 1,
+   "lang": "HTML",
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-16",
+   "created": "2026-09-16",
+   "category": "app",
+   "evidence": null,
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 6,
+    "code_kb": 11,
+    "prose_kb": 29,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.27,
+    "reusable": 0.18,
+    "maturity": 0.87,
+    "category_confidence": 0.26
+   }
+  },
+  {
+   "repo": "DeepBlueDynamics/typesafe-arena",
+   "url": "https://github.com/DeepBlueDynamics/typesafe-arena",
+   "tier": "resource",
+   "desc": "A playground for TypeSafeAI's Jev Model",
+   "stars": 1,
+   "lang": "Rust",
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-17",
+   "created": "2026-09-17",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "primitives",
+    "endpoint",
+    "sdk",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 29,
+    "code_kb": 635,
+    "prose_kb": 780,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.41,
+    "reusable": 0.16,
+    "maturity": 1.28,
+    "category_confidence": 0.64
+   }
+  },
+  {
+   "repo": "edgardcham/huncho",
+   "url": "https://github.com/edgardcham/huncho",
+   "tier": "verified",
+   "desc": "Decisions as code on System One models: typed questions, thresholds with hysteresis, nested decisions, journal, calibration",
+   "stars": 1,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "repro",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/jev.ts",
+    "line": 12,
+    "snippet": "const DEFAULT_URL = \"https://api.typesafe.ai/v1/systemone\";",
+    "matches": 39,
+    "sha": "8fef4ea6840b6240fa63d2fa805c228ed1aa8444",
+    "permalink": "https://github.com/edgardcham/huncho/blob/8fef4ea6840b6240fa63d2fa805c228ed1aa8444/src/jev.ts#L12"
+   },
+   "doc_markers": [
+    "model_id",
+    "endpoint",
+    "sdk"
+   ],
+   "shape": {
+    "code_files": 89,
+    "code_kb": 582,
+    "prose_kb": 95,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.78,
+    "reusable": 0.59,
+    "maturity": 2.18,
+    "category_confidence": 0.47
+   }
+  },
+  {
+   "repo": "Eliran-Turgeman/reaper",
+   "url": "https://github.com/Eliran-Turgeman/reaper",
+   "tier": "verified",
+   "desc": "Semantic linter for AI coding agents and CI code review. Detects silent failures, weakened tests, scope creep, unnecessary abstractions, and other semantic code smells.",
+   "stars": 1,
+   "lang": "Go",
+   "license": null,
+   "topics": [
+    "ai-code-review",
+    "ai-coding-agents",
+    "cli",
+    "code-quality",
+    "code-review",
+    "coding-agents",
+    "continuous-integration",
+    "developer-tools"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "guardrail",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "internal/jev/http.go",
+    "line": 20,
+    "snippet": "DefaultBaseURL           = \"https://api.typesafe.ai\"",
+    "matches": 8,
+    "sha": "e95e5e616f0340ef9d9c0d3df95e0a7b49e441e1",
+    "permalink": "https://github.com/Eliran-Turgeman/reaper/blob/e95e5e616f0340ef9d9c0d3df95e0a7b49e441e1/internal/jev/http.go#L20"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 43,
+    "code_kb": 203,
+    "prose_kb": 8,
+    "tests": false,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.5,
+    "reusable": 0.82,
+    "maturity": 1.98,
+    "category_confidence": 0.92
+   }
+  },
+  {
+   "repo": "keltokhy/jlink",
+   "url": "https://github.com/keltokhy/jlink",
+   "tier": "verified",
+   "desc": "Record linkage for economists: write the match rule in plain English, get a probability per pair, audit it, cite it. Python, CLI, Stata and R.",
+   "stars": 1,
+   "lang": "Python",
+   "license": "MIT",
+   "topics": [
+    "economics",
+    "entity-resolution",
+    "fuzzy-matching",
+    "jev",
+    "record-linkage",
+    "stata"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/jlink/core.py",
+    "line": 57,
+    "snippet": "\"typesafe\": Backend(\"typesafe\", \"https://api.typesafe.ai/v1/systemone\", \"jev-latest\", \"TYPESAFE_API_KEY\"),",
+    "matches": 11,
+    "sha": "2c103536b92cea133cdafddc3e77c0e876c4a44e",
+    "permalink": "https://github.com/keltokhy/jlink/blob/2c103536b92cea133cdafddc3e77c0e876c4a44e/src/jlink/core.py#L57"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 36,
+    "code_kb": 256,
+    "prose_kb": 51,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.78,
+    "reusable": 0.87,
+    "maturity": 2.54,
+    "category_confidence": 0.71
+   }
+  },
+  {
+   "repo": "KsanaDock/verdict-lab",
+   "url": "https://github.com/KsanaDock/verdict-lab",
+   "tier": "resource",
+   "desc": "An experiment comparing the capabilities and costs of the JEV model and LLM models in the field of content moderation",
+   "stars": 1,
+   "lang": null,
+   "license": "Apache-2.0",
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 45,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.33,
+    "reusable": 0.05,
+    "maturity": 0.5,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "mallahyari/system-one-benchmark",
+   "url": "https://github.com/mallahyari/system-one-benchmark",
+   "tier": "verified",
+   "desc": "System One & Parallel Constrained Decoding Benchmark",
+   "stars": 1,
+   "lang": "Python",
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "research",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "evaluate_jev.py",
+    "line": 40,
+    "snippet": "TYPESAFE_API_URL = \"https://api.typesafe.ai/v1/systemone\"",
+    "matches": 4,
+    "sha": "46c232b887d41b4b560a1eac74972eade3b1fddc",
+    "permalink": "https://github.com/mallahyari/system-one-benchmark/blob/46c232b887d41b4b560a1eac74972eade3b1fddc/evaluate_jev.py#L40"
+   },
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 12,
+    "code_kb": 262,
+    "prose_kb": 7,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.63,
+    "reusable": 0.28,
+    "maturity": 1.21,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "MithrilMan/your-signal",
+   "url": "https://github.com/MithrilMan/your-signal",
+   "tier": "verified",
+   "desc": "Open-source BYOK Chrome extension for personal, reversible X timeline filters.",
+   "stars": 1,
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [
+    "browser-extension",
+    "byok",
+    "chrome-extension",
+    "feed-filter",
+    "jev",
+    "manifest-v3",
+    "open-source",
+    "privacy"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "app",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "eval/run.py",
+    "line": 84,
+    "snippet": "request = urllib.request.Request('https://api.typesafe.ai/v1/systemone', data=json.dumps(payload).encode(),",
+    "matches": 15,
+    "sha": "2970c069231b96f094f6fcfe4c11bfcf2da0ecb2",
+    "permalink": "https://github.com/MithrilMan/your-signal/blob/2970c069231b96f094f6fcfe4c11bfcf2da0ecb2/eval/run.py#L84"
+   },
+   "doc_markers": [
+    "endpoint"
+   ],
+   "shape": {
+    "code_files": 22,
+    "code_kb": 249,
+    "prose_kb": 49,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.77,
+    "reusable": 0.82,
+    "maturity": 2.18,
+    "category_confidence": 0.98
+   }
+  },
+  {
+   "repo": "nurf-ai/ai",
+   "url": "https://github.com/nurf-ai/ai",
+   "tier": "verified",
+   "desc": "Multimodal Go AI module with realistic cost tracking, not just tokens.",
+   "stars": 1,
+   "lang": "Go",
+   "license": "MIT",
+   "topics": [
+    "agent",
+    "ai",
+    "cost-tracking",
+    "embeddings",
+    "generative-ai",
+    "go",
+    "golang",
+    "image-generation"
+   ],
+   "pushed": "2026-09-20",
+   "created": "2026-08-18",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "typesafe.go",
+    "line": 15,
+    "snippet": "const defaultTypesafeBase = \"https://api.typesafe.ai\"",
+    "matches": 9,
+    "sha": "7721d7c1f095a7bfba5fdf295feadf14326820f1",
+    "permalink": "https://github.com/nurf-ai/ai/blob/7721d7c1f095a7bfba5fdf295feadf14326820f1/typesafe.go#L15"
+   },
+   "doc_markers": [
+    "primitives",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 68,
+    "code_kb": 391,
+    "prose_kb": 28,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.06,
+    "reusable": 0.71,
+    "maturity": 2.1,
+    "category_confidence": 0.71
+   }
+  },
+  {
+   "repo": "omni-/ask-jev",
+   "url": "https://github.com/omni-/ask-jev",
+   "tier": "resource",
+   "desc": "Utilizing Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions.",
+   "stars": 1,
+   "lang": "PowerShell",
+   "license": "MIT",
+   "topics": [],
+   "pushed": "2026-09-16",
+   "created": "2026-09-16",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 25,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.28,
+    "reusable": 0.16,
+    "maturity": 0.17,
+    "category_confidence": 0.65
+   }
+  },
+  {
+   "repo": "qddegtya/qualm",
+   "url": "https://github.com/qddegtya/qualm",
+   "tier": "verified",
+   "desc": "Typed decisions from a System One model, where uncertainty is something you have to handle.",
+   "stars": 1,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "ai",
+    "classification",
+    "decision-making",
+    "esm",
+    "jev",
+    "llm",
+    "system-one",
+    "type-safety"
+   ],
+   "pushed": "2026-09-18",
+   "created": "2026-09-18",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "src/provider.ts",
+    "line": 46,
+    "snippet": "export const typesafe = (apiKey: string, baseUrl = \"https://api.typesafe.ai\"): Provider => ({",
+    "matches": 9,
+    "sha": "e1aacf6844f312ba95eb6a1bd26fad15575a7173",
+    "permalink": "https://github.com/qddegtya/qualm/blob/e1aacf6844f312ba95eb6a1bd26fad15575a7173/src/provider.ts#L46"
+   },
+   "doc_markers": [
+    "model_id",
+    "endpoint",
+    "sdk"
+   ],
+   "shape": {
+    "code_files": 25,
+    "code_kb": 141,
+    "prose_kb": 49,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.8,
+    "reusable": 0.77,
+    "maturity": 2.09,
+    "category_confidence": 0.68
+   }
+  },
+  {
+   "repo": "shkumbinhasani/typedecide",
+   "url": "https://github.com/shkumbinhasani/typedecide",
+   "tier": "verified",
+   "desc": "Provider-agnostic TypeScript SDK for decision models — typed answers with calibrated uncertainty, instead of text you have to parse. Pre-release, not on npm yet.",
+   "stars": 1,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "topics": [
+    "ai",
+    "bun",
+    "decision-models",
+    "jev",
+    "llm",
+    "openrouter",
+    "typesafe",
+    "typescript"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "sdk",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "packages/typesafe/src/api.ts",
+    "line": 71,
+    "snippet": "export const TYPESAFE_DEFAULT_BASE_URL = \"https://api.typesafe.ai\";",
+    "matches": 21,
+    "sha": "cc2e7cdd893e94fb759546cfb0c7697098f4e766",
+    "permalink": "https://github.com/shkumbinhasani/typedecide/blob/cc2e7cdd893e94fb759546cfb0c7697098f4e766/packages/typesafe/src/api.ts#L71"
+   },
+   "doc_markers": [
+    "endpoint",
+    "model_id",
+    "primitives"
+   ],
+   "shape": {
+    "code_files": 59,
+    "code_kb": 181,
+    "prose_kb": 29,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.88,
+    "reusable": 0.58,
+    "maturity": 2.05,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "skhlo/rlcd-brwsr",
+   "url": "https://github.com/skhlo/rlcd-brwsr",
+   "tier": "resource",
+   "desc": "Fast browser execution for Pi using Jev classification and Chrome DevTools CLI",
+   "stars": 1,
+   "lang": null,
+   "license": null,
+   "topics": [],
+   "pushed": "2026-09-20",
+   "created": "2026-09-19",
+   "category": "browser",
+   "evidence": null,
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 22,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.17,
+    "reusable": 0.16,
+    "maturity": 0.04,
+    "category_confidence": 0.96
+   }
+  },
+  {
+   "repo": "terryds/jevplayground",
+   "url": "https://github.com/terryds/jevplayground",
+   "tier": "resource",
+   "desc": "Browser-only playground for Jev (TypeSafe AI's decision model) via Vercel AI Gateway",
+   "stars": 1,
+   "lang": "HTML",
+   "license": null,
+   "topics": [
+    "ai",
+    "jev"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "app",
+   "evidence": null,
+   "doc_markers": [
+    "model_id",
+    "ai_sdk"
+   ],
+   "shape": {
+    "code_files": 0,
+    "code_kb": 0,
+    "prose_kb": 2,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.34,
+    "reusable": 0.08,
+    "maturity": 0.52,
+    "category_confidence": 0.78
+   }
+  },
+  {
+   "repo": "vinilana/jev-gateway-bench",
+   "url": "https://github.com/vinilana/jev-gateway-bench",
+   "tier": "resource",
+   "desc": "Benchmark for jev-gateway: real coding agents on chess engine tasks, with Jev routing on and off",
+   "stars": 1,
+   "lang": "JavaScript",
+   "license": "MIT",
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-18",
+   "category": "research",
+   "evidence": null,
+   "doc_markers": [
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 11,
+    "code_kb": 71,
+    "prose_kb": 27,
+    "tests": false,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.77,
+    "reusable": 0.28,
+    "maturity": 1.28,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "wakamenod/jev.el",
+   "url": "https://github.com/wakamenod/jev.el",
+   "tier": "resource",
+   "desc": "An Emacs Lisp client for Jev, TypeSafe AI's",
+   "stars": 1,
+   "lang": "Emacs Lisp",
+   "license": "GPL-3.0",
+   "topics": [],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "sdk",
+   "evidence": null,
+   "doc_markers": [
+    "endpoint",
+    "sdk",
+    "model_id"
+   ],
+   "shape": {
+    "code_files": 1,
+    "code_kb": 0,
+    "prose_kb": 7,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.23,
+    "reusable": 0.46,
+    "maturity": 0.06,
+    "category_confidence": 0.49
+   }
+  },
+  {
+   "repo": "youshinh/md-memo",
+   "url": "https://github.com/youshinh/md-memo",
+   "tier": "verified",
+   "desc": "A zero-latency, local-first Markdown scratchpad with offline AI (Ollama/vLLM) and autonomous IME control. Built with Go and OS-native webviews.",
+   "stars": 1,
+   "lang": "Go",
+   "license": "MIT",
+   "topics": [
+    "go",
+    "google",
+    "jev",
+    "local-first",
+    "local-first-ai",
+    "local-llm",
+    "local-llm-integration",
+    "markdown"
+   ],
+   "pushed": "2026-09-20",
+   "created": "2026-08-29",
+   "category": "app",
+   "evidence": {
+    "kind": "endpoint",
+    "file": "pkg/jev/jev_client.go",
+    "line": 19,
+    "snippet": "const DefaultTypeSafeEndpoint = \"https://api.typesafe.ai\"",
+    "matches": 19,
+    "sha": "de7a5474ab4ba43a9483f6a1a2ca0afea75c6f6a",
+    "permalink": "https://github.com/youshinh/md-memo/blob/de7a5474ab4ba43a9483f6a1a2ca0afea75c6f6a/pkg/jev/jev_client.go#L19"
+   },
+   "doc_markers": [],
+   "shape": {
+    "code_files": 145,
+    "code_kb": 1381,
+    "prose_kb": 43,
+    "tests": true,
+    "ci": true
+   },
+   "jev_says": {
+    "uses_jev": 0.76,
+    "reusable": 0.71,
+    "maturity": 2.49,
+    "category_confidence": 1
+   }
+  },
+  {
+   "repo": "zadescoxp/kadeconsole",
+   "url": "https://github.com/zadescoxp/kadeconsole",
+   "tier": "verified",
+   "desc": "Kade console is a bloomberg terminal type of analytical tool.",
+   "stars": 1,
+   "lang": "Python",
+   "license": null,
+   "topics": [
+    "alpaca",
+    "alpha-vantage",
+    "finance",
+    "jev",
+    "stock-screener",
+    "trading-scanners",
+    "trading-screener",
+    "yfinance"
+   ],
+   "pushed": "2026-09-19",
+   "created": "2026-09-19",
+   "category": "app",
+   "evidence": {
+    "kind": "sdk",
+    "file": "kadeconsole/jev/client.py",
+    "line": 4,
+    "snippet": "Wraps the typesafe-sdk TypeSafeClient with:",
+    "matches": 8,
+    "sha": "4071e1baf837e3cf91b4852998f19a72932ce758",
+    "permalink": "https://github.com/zadescoxp/kadeconsole/blob/4071e1baf837e3cf91b4852998f19a72932ce758/kadeconsole/jev/client.py#L4"
+   },
+   "doc_markers": [],
+   "shape": {
+    "code_files": 43,
+    "code_kb": 173,
+    "prose_kb": 4,
+    "tests": true,
+    "ci": false
+   },
+   "jev_says": {
+    "uses_jev": 0.75,
+    "reusable": 0.83,
+    "maturity": 2.03,
+    "category_confidence": 0.64
+   }
+  }
+ ]
+}

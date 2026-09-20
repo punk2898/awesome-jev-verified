@@ -1,0 +1,13 @@
+{
+  "name": "awesome-jev-verified",
+  "private": true,
+  "type": "module",
+  "description": "A curated list of open-source Jev projects where every entry links to the code that calls Jev.",
+  "scripts": {
+    "discover": "node scripts/discover.mjs",
+    "verify": "node scripts/verify.mjs",
+    "classify": "node scripts/classify.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": { "ai": "^7.0.107" }
+}

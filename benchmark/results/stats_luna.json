@@ -1,0 +1,202 @@
+{
+ "sst2": {
+  "n": 150,
+  "diff": 0.007,
+  "lo": -0.013,
+  "hi": 0.027,
+  "jev_wrong": 6,
+  "same_wrong_as_baseline": 5
+ },
+ "boolq": {
+  "n": 200,
+  "diff": 0.04,
+  "lo": -0.005,
+  "hi": 0.085,
+  "jev_wrong": 24,
+  "same_wrong_as_baseline": 17
+ },
+ "rte": {
+  "n": 150,
+  "diff": 0.087,
+  "lo": 0.04,
+  "hi": 0.133,
+  "jev_wrong": 9,
+  "same_wrong_as_baseline": 8
+ },
+ "truthfulqa": {
+  "n": 300,
+  "diff": 0.1,
+  "lo": 0.06,
+  "hi": 0.143,
+  "jev_wrong": 21,
+  "same_wrong_as_baseline": 14
+ },
+ "xnli_zh": {
+  "n": 150,
+  "diff": 0.04,
+  "lo": -0.02,
+  "hi": 0.1,
+  "jev_wrong": 46,
+  "same_wrong_as_baseline": 39
+ },
+ "xnli_en": {
+  "n": 150,
+  "diff": 0.007,
+  "lo": -0.053,
+  "hi": 0.067,
+  "jev_wrong": 31,
+  "same_wrong_as_baseline": 21
+ },
+ "xnli_zh_full": {
+  "n": 150,
+  "diff": 0.06,
+  "lo": -0.007,
+  "hi": 0.127,
+  "jev_wrong": 47,
+  "same_wrong_as_baseline": 39
+ },
+ "banking77": {
+  "n": 150,
+  "diff": -0.1,
+  "lo": -0.153,
+  "hi": -0.047,
+  "jev_wrong": 48,
+  "same_wrong_as_baseline": 23
+ },
+ "agnews": {
+  "n": 100,
+  "diff": 0.01,
+  "lo": -0.02,
+  "hi": 0.04,
+  "jev_wrong": 12,
+  "same_wrong_as_baseline": 11
+ },
+ "w_counting": {
+  "n": 40,
+  "diff": -0.25,
+  "lo": -0.4,
+  "hi": -0.1,
+  "jev_wrong": 14,
+  "same_wrong_as_baseline": 3
+ },
+ "w_math": {
+  "n": 40,
+  "diff": 0.05,
+  "lo": 0,
+  "hi": 0.125,
+  "jev_wrong": 0,
+  "same_wrong_as_baseline": 0
+ },
+ "w_dates": {
+  "n": 40,
+  "diff": 0.025,
+  "lo": 0,
+  "hi": 0.075,
+  "jev_wrong": 0,
+  "same_wrong_as_baseline": 0
+ },
+ "w_indirection": {
+  "n": 30,
+  "diff": 0.067,
+  "lo": 0,
+  "hi": 0.167,
+  "jev_wrong": 0,
+  "same_wrong_as_baseline": 0
+ },
+ "w_distractor": {
+  "n": 60,
+  "diff": 0,
+  "lo": -0.083,
+  "hi": 0.083,
+  "jev_wrong": 7,
+  "same_wrong_as_baseline": 4
+ },
+ "h_unanswerable": {
+  "n": 40,
+  "diff": 0,
+  "lo": 0,
+  "hi": 0,
+  "jev_wrong": 0,
+  "same_wrong_as_baseline": 0
+ },
+ "h_answerable": {
+  "n": 40,
+  "diff": 0.05,
+  "lo": 0,
+  "hi": 0.125,
+  "jev_wrong": 8,
+  "same_wrong_as_baseline": 6
+ },
+ "w_injection": {
+  "n": 80,
+  "diff": 0.813,
+  "lo": 0.725,
+  "hi": 0.9,
+  "jev_wrong": 2,
+  "same_wrong_as_baseline": 2
+ },
+ "c_negation": {
+  "n": 60,
+  "diff": 0.017,
+  "lo": -0.033,
+  "hi": 0.067,
+  "jev_wrong": 2,
+  "same_wrong_as_baseline": 1
+ },
+ "c_negation_boolq": {
+  "n": 60,
+  "diff": 0.05,
+  "lo": 0,
+  "hi": 0.117,
+  "jev_wrong": 6,
+  "same_wrong_as_baseline": 6
+ },
+ "c_paraphrase": {
+  "n": 180,
+  "diff": 0.039,
+  "lo": 0.006,
+  "hi": 0.078,
+  "jev_wrong": 6,
+  "same_wrong_as_baseline": 4
+ },
+ "c_noul_vs_choice": {
+  "n": 60,
+  "diff": 0.017,
+  "lo": -0.033,
+  "hi": 0.083,
+  "jev_wrong": 2,
+  "same_wrong_as_baseline": 1
+ },
+ "wh_math": {
+  "n": 60,
+  "diff": -0.033,
+  "lo": -0.083,
+  "hi": 0,
+  "jev_wrong": 2,
+  "same_wrong_as_baseline": 0
+ },
+ "wh_dates": {
+  "n": 40,
+  "diff": 0.025,
+  "lo": -0.1,
+  "hi": 0.15,
+  "jev_wrong": 5,
+  "same_wrong_as_baseline": 2
+ },
+ "wh_indirection": {
+  "n": 30,
+  "diff": -0.133,
+  "lo": -0.267,
+  "hi": -0.033,
+  "jev_wrong": 4,
+  "same_wrong_as_baseline": 0
+ },
+ "wh_counting": {
+  "n": 30,
+  "diff": -0.133,
+  "lo": -0.333,
+  "hi": 0.033,
+  "jev_wrong": 7,
+  "same_wrong_as_baseline": 1
+ }
+}
