@@ -33,6 +33,8 @@ node scripts/discover.mjs    # GitHub search → data/raw.json
 node scripts/verify.mjs      # download at pinned commit, find evidence
 node scripts/classify.mjs    # Jev sorts each repo into a category
 node scripts/build.mjs       # render README + categories
+
+node scripts/extract-questions.mjs   # mine real question sets out of the verified repos
 ```
 
 `discover` and `verify` need `gh` authenticated. `classify` needs an `AI_GATEWAY_API_KEY` in the environment; the whole run costs a few cents.
